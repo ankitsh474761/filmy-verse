@@ -1,10 +1,8 @@
 import { initializeApp } from "firebase/app";
-import {getFirestore, collection} from 'firebase/firestore'
-import dotenv from "dotenv"
-dotenv.config();
+import { getFirestore, collection } from "firebase/firestore";
 
 const firebaseConfig = {
-  apiKey: process.env.FIREBASE_APP_API_KEY,
+  apiKey: process.env.REACT_APP_FIREBASE_APP_API_KEY,
   authDomain: "filmyverse-ff6e3.firebaseapp.com",
   projectId: "filmyverse-ff6e3",
   storageBucket: "filmyverse-ff6e3.appspot.com",
